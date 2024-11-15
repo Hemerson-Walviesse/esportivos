@@ -1,0 +1,27 @@
+CREATE TABLE classificacao
+(
+    id                    BIGINT AUTO_INCREMENT PRIMARY KEY,
+    time_id               INT NOT NULL,
+    classificacao         INT,
+    nome                  VARCHAR(255),
+    pontos                INT,
+    descricao             VARCHAR(255),
+    jogos                 INT,
+    vitorias              INT,
+    derrotas              INT,
+    empates               INT,
+    gols_feitos           INT,
+    gols_sofridos         INT,
+    jogos_em_casa         INT,
+    vitorias_em_casa      INT,
+    derrotas_em_casa      INT,
+    empates_em_casa       INT,
+    gols_feitos_em_casa   INT,
+    gols_sofridos_em_casa INT,
+    jogos_fora            INT,
+    vitorias_fora         INT,
+    derrotas_fora         INT,
+    empates_fora          INT,
+    gols_feitos_fora      INT,
+    gols_sofridos_fora    INT
+);
